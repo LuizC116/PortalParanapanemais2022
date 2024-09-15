@@ -1,0 +1,103 @@
+.cards {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  div.mx-auto.mt-3.mb-3.card.text {
+    width: 100%;
+    background-color: #ffffffd3;
+  }
+  .map-responsive {
+    padding-bottom: 65%;
+    position: relative;
+    height: 0;
+  }
+
+  .map-responsive iframe {
+    margin-left: -12.5%;
+    left: 0;
+    top: 0;
+    height: 120%;
+    width: 125%;
+    position: absolute;
+  }
+  .mapat {
+    padding-top: 13%;
+  }
+  .map-responsive {
+    padding-bottom: 65%;
+    position: relative;
+    height: 0;
+  }
+
+  .map-responsive iframe {
+    margin-left: -12.5%;
+    left: 0;
+    top: 0;
+    height: 120%;
+    width: 125%;
+    position: absolute;
+  }
+  .mapat {
+    padding-top: 13%;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 2160px) {
+  div.mx-auto.mt-3.mb-3.card.text {
+    width: 75%;
+    background-color: #ffffffd3;
+  }
+  .map-responsive {
+    padding-bottom: 65%;
+    position: relative;
+    height: 0;
+  }
+
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    position: absolute;
+  }
+  .mapat {
+    padding-top: 13%;
+  }
+  .map-responsive {
+    padding-bottom: 55%;
+    position: relative;
+    height: 0;
+  }
+
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 120%;
+    width: 100%;
+    position: absolute;
+  }
+  .mapat {
+    padding-top: 13%;
+  }
+}
+.janelapages {
+  filter: drop-shadow(0px 2px 2px rgb(158, 156, 156));
+  height: calc(60vh - -400px);
+  margin-top: 100px;
+  display: flex;
+}
+.paragrafo {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+.margem {
+  margin-top: 120px;
+  filter: drop-shadow(0px 2px 2px rgb(158, 156, 156));
+}
+.banner {
+  width: 100%;
+}

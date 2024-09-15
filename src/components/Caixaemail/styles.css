@@ -1,0 +1,35 @@
+.iconcademail {
+  filter: drop-shadow(1px 1px 0px rgb(255, 255, 255))
+    drop-shadow(-1px -1px 0px rgb(255, 255, 255))
+    drop-shadow(1px 0px 0px rgb(255, 255, 255))
+    drop-shadow(0px 1px 0px rgb(255, 255, 255))
+    drop-shadow(1px -1px 0px rgb(255, 255, 255))
+    drop-shadow(-1px 1px 0px rgb(255, 255, 255))
+    drop-shadow(0px 0px 4px rgb(190, 188, 188));
+  max-width: 128px;
+  width: 100%;
+}
+.tit {
+  font-family: Rajdhani;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 25px;
+  background-image: linear-gradient(to top, #1a3c3d, #038356);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(1px 1px 0px rgb(255, 255, 255))
+    drop-shadow(-1px -1px 0px rgb(255, 255, 255))
+    drop-shadow(1px 0px 0px rgb(255, 255, 255))
+    drop-shadow(0px 1px 0px rgb(255, 255, 255))
+    drop-shadow(1px -1px 0px rgb(255, 255, 255))
+    drop-shadow(-1px 1px 0px rgb(255, 255, 255))
+    drop-shadow(0px 2px 2px rgb(190, 188, 188));
+  margin-top: 10px;
+}
+.subem {
+  font-size: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

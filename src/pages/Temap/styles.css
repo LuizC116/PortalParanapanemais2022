@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap");
+.card-tittle {
+  font-family: Rajdhani;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  background-image: linear-gradient(to top, #1a3c3d, #038356);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+  filter: drop-shadow(1px 1px 0px rgb(255, 255, 255))
+    drop-shadow(-1px -1px 0px rgb(255, 255, 255))
+    drop-shadow(1px 0px 0px rgb(255, 255, 255))
+    drop-shadow(0px 1px 0px rgb(255, 255, 255))
+    drop-shadow(1px -1px 0px rgb(255, 255, 255))
+    drop-shadow(-1px 1px 0px rgb(255, 255, 255))
+    drop-shadow(0px 2px 2px rgb(190, 188, 188));
+  margin-top: 10px;
+}
+.logo {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  filter: drop-shadow(0px 2px 2px rgb(158, 156, 156));
+}
+.janelatema {
+  filter: drop-shadow(0px 2px 2px rgb(158, 156, 156));
+  height: calc(60vh - -400px);
+  margin-bottom: -90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

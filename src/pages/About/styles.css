@@ -1,0 +1,64 @@
+@media only screen and (min-width: 0px) and (max-width: 1360px) {
+  .fotoeu {
+    width: 60%;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .paragrafosobre {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1361px) and (max-width: 2160px) {
+  .fotoeu {
+    width: 35%;
+  }
+  .paragrafosobre {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+}
+.pad {
+  padding-top: 11px;
+}
+.imgico {
+  width: 12%;
+}
+.linkabout,
+.icone2 {
+  filter: brightness(70%);
+  margin-top: 10px;
+  transition: 0.2s;
+  text-decoration: none;
+  color: black;
+}
+.linkabout:hover,
+.icone2:hover {
+  filter: brightness(40%);
+  font-weight: bold;
+  text-decoration: none;
+}
+.fileira2 {
+  width: 50%;
+}
+.tablefull {
+  width: 100%;
+}

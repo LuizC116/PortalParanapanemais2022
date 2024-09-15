@@ -1,0 +1,88 @@
+.carromens {
+  text-align: left;
+  filter: drop-shadow(0px 2px 2px rgb(41, 38, 38))
+    drop-shadow(0px 2px 2px rgb(7, 75, 43));
+  margin-bottom: -5.5%;
+  margin-left: 1.3%;
+}
+.carousel-caption {
+  right: 52%;
+  left: 3%;
+  width: 600px;
+}
+h3 {
+  line-height: 32px;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: -6px;
+  width: 40%;
+}
+.linkcr {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  color: #229087;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: solid;
+  display: block;
+  border-width: 1px;
+  width: 200px;
+}
+.linkcr:hover {
+  background-color: #229087;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.1s;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  background: none;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  margin-top: 10%;
+  height: 60%;
+  filter: drop-shadow(0px 2px 2px rgb(41, 38, 38));
+}
+.sub {
+  margin-bottom: 0rem;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 48%;
+  margin-left: 15%;
+  list-style: none;
+  filter: drop-shadow(0px 2px 2px rgb(41, 38, 38));
+}
+
+@media only screen and (min-width: 801px) and (max-width: 2160px) {
+  .carrossel {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  .carrossel {
+    width: 125%;
+    margin-left: -12.5%;
+  }
+}

@@ -1,0 +1,110 @@
+.logof {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.formulario {
+  width: 90%;
+}
+.formulario input {
+  margin-bottom: 10px;
+  height: 35px;
+  border-radius: 6px;
+}
+.botaopa {
+  margin-bottom: 10px;
+  height: 35px;
+  text-transform: uppercase;
+  background-color: #005849;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+}
+.botaopa:hover {
+  background-color: #007655;
+  font-weight: bold;
+}
+.linkpa {
+  background-color: #005849;
+  margin-bottom: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 30px;
+  width: 75%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+.linkpa:hover {
+  background-color: #007655;
+  color: #ffffff;
+  font-weight: bold;
+}
+.logof {
+  width: 90%;
+  display: flex;
+  min-width: 100px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(0px 2px 2px rgb(158, 156, 156));
+}
+.content div {
+  min-width: 320px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content div div {
+  width: 90%;
+  min-width: 250px;
+}
+
+.content {
+  filter: drop-shadow(0px 2px 2px rgb(158, 156, 156));
+  height: calc(60vh - -300px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msgsin {
+  font-family: Rajdhani;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  background-image: linear-gradient(to top, #1a3c3d, #038356);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+  filter: drop-shadow(1px 1px 0px rgb(255, 255, 255))
+    drop-shadow(-1px -1px 0px rgb(255, 255, 255))
+    drop-shadow(1px 0px 0px rgb(255, 255, 255))
+    drop-shadow(0px 1px 0px rgb(255, 255, 255))
+    drop-shadow(1px -1px 0px rgb(255, 255, 255))
+    drop-shadow(-1px 1px 0px rgb(255, 255, 255))
+    drop-shadow(0px 2px 2px rgb(190, 188, 188));
+  margin-top: 10px;
+}
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  div.card.text {
+    width: 100%;
+    background-color: #ffffffd3;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1600px) {
+  div.card.text {
+    width: 50%;
+    background-color: #ffffffd3;
+  }
+}
+@media only screen and (min-width: 1601px) and (max-width: 2160px) {
+  div.card.text {
+    width: 30%;
+    background-color: #ffffffd3;
+  }
+}

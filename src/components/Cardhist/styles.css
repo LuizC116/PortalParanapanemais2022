@@ -1,0 +1,40 @@
+.fundcardh {
+  background-image: url("../../assets/bh.png");
+  color: #ffffff;
+  background-position-x: center;
+}
+.linkcr2 {
+  margin-top: -1%;
+  background-color: #ffffff;
+  color: #1a1d20;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: solid;
+  display: block;
+  border-width: 1px;
+  width: 200px;
+}
+.linkcr2:hover {
+  background-color: #1a1d20;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.1s;
+}
+.cart {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 26px;
+  filter: drop-shadow(0px 0px 3px #080708) drop-shadow(0px 0px 3px #080708)
+    drop-shadow(0px 0px 3px #080708);
+}
+.subcart {
+  filter: drop-shadow(0px 0px 3px #080708) drop-shadow(0px 0px 3px #080708)
+    drop-shadow(0px 0px 3px #080708);
+}
+.cbody {
+  height: 160px;
+}

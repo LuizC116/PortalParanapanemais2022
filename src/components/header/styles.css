@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap");
+body {
+  font-family: "Rajdhani", sans-serif;
+}
+.headerfixo {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #343a40;
+  margin: auto auto;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+}
+.offcanv {
+  background-color: #343a40;
+  color: #dee2e6;
+}
+.fechar {
+  color: #dee2e6;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 2160px) {
+  .perfildiv {
+    display: flex;
+    flex-direction: row;
+    width: 215px;
+    height: 90px;
+    align-items: center;
+    border: solid;
+    border-color: #1f2022;
+    border-radius: 24px;
+    background-color: #1f202271;
+  }
+  .nomeusu {
+    display: flex;
+
+    font-weight: bold;
+
+    flex-direction: column;
+    line-height: 20px;
+    margin-left: 10px;
+  }
+  .fperfil {
+    border-radius: 20px;
+    width: 78px;
+    height: 78px;
+    border: solid;
+    border-color: #dee2e6;
+    margin-left: 4px;
+  }
+  .botaohead {
+    margin-left: 4px;
+    margin-top: 1px;
+    background-color: #1f2022;
+    border-radius: 17px;
+    width: 120px;
+    border-color: transparent;
+    color: #dee2e6;
+  }
+  .botaohead:hover {
+    background-color: #343a40;
+    border-color: transparent;
+    color: #dee2e6;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.1s;
+  }
+  .overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .nav-link {
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 12px;
+  }
+  .nav-link:hover {
+    color: #ffffff;
+    background-color: #484a56;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: 0.1s;
+  }
+  .nav-link:active {
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #484a56;
+  }
+
+  .drop {
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .dropit {
+    margin-left: 12px;
+    color: #dee2e6;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 90%;
+    align-items: center;
+    text-indent: -12px;
+  }
+  .dropit:hover {
+    color: #ffffff;
+    width: 90%;
+    background-color: #484a56;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: 0.1s;
+  }
+  .emojis {
+    width: 20px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+  .perfildiv {
+    display: flex;
+    flex-direction: row;
+    width: 215px;
+    height: 90px;
+    align-items: center;
+    border: solid;
+    border-color: #1f2022;
+    border-radius: 24px;
+    background-color: #1f202271;
+  }
+  .nomeusu {
+    display: flex;
+
+    font-weight: bold;
+
+    flex-direction: column;
+    line-height: 20px;
+    margin-left: 10px;
+  }
+  .fperfil {
+    border-radius: 20px;
+    width: 78px;
+    height: 78px;
+    border: solid;
+    border-color: #dee2e6;
+    margin-left: 4px;
+  }
+  .botaohead {
+    margin-left: 4px;
+    margin-top: 1px;
+    background-color: #1f2022;
+    border-radius: 17px;
+    width: 120px;
+    border-color: transparent;
+    color: #dee2e6;
+  }
+  .botaohead:hover {
+    background-color: #343a40;
+    border-color: transparent;
+    color: #dee2e6;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.1s;
+  }
+  .overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .nav-link {
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 12px;
+  }
+  .nav-link:hover {
+    color: #ffffff;
+    background-color: #484a56;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: 0.1s;
+  }
+  .nav-link:active {
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #484a56;
+  }
+
+  .drop {
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .dropit {
+    margin-left: 12px;
+    color: #dee2e6;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 90%;
+    align-items: center;
+    text-indent: -12px;
+  }
+  .dropit:hover {
+    color: #ffffff;
+    width: 90%;
+    background-color: #484a56;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: 0.1s;
+  }
+  .emojis {
+    width: 20px;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.logotipo {
+  width: 200px;
+}
+.logotipo:hover {
+  width: 210px;
+  margin-bottom: -1%;
+  transition: 0.3s;
+}
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+}
